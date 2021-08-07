@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600');
+
+h2{
+    margin-top: 0;
+}
+
+.name-header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+label{
+    padding: 0 0.5em 0 0.5em;
+}
+a{
+    text-decoration: none !important;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: .9em;
+    line-height: 1.6em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.blau-container{
+    text-align: center;
+    padding: 0.8em 1.2em;
+    background: #00c2ff;
+}
+.container{
+    text-align: center;
+    padding: 0.8em 1.2em;
+}
+
+section{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 1.6em;
+}
+.logo{
+    width: 160px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-container{
+    width: 100%;
+    background: #fff;
+    margin-top: 7%;
+    padding-bottom: 4em;
+    justify-content: center;
+    
+}
+
+.food-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+
+.food-iteam{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+
+.food-container img{
+    width: 80%;
+    float: right;
+    padding-right: 2em;
+   
+}
+
+.buttons{
+    margin: 0.7em 0 2em;
+    padding-right: 1em ;
+    position:relative; 
+    left:5%;
+}
+
+
+
+
+nav ul{
+    display:flex;
+    position: inherit;
+    width: auto;
+    height: auto;
+    padding-top: 3.5em;
+    text-align: right;
+
+}
+
+nav ul li a{
+    font-size: 25px;
+    color: #fff;
+    padding-right: 2em;
+}
+nav ul li{
+    float: left;
+}
+
+
+
+footer{
+    width: 100%;
+    background: #3D444A ;
+    color: #fff;
+    padding: 0.5em 0;
+    text-align: right;
+    position: absolute;
+
+}
+
+.logo-footer{
+    width: 160px;
+    float: left;
+}
+
+.adress{
+    text-align: left;
+    color: #9d9d9d;
+    font-size: 1em;
+    margin-top: 3em;
+
+}
+
+ul.footer-links li{
+    padding: 0 0.5em 0 0.3em;
+}
+
+
+ul.footer-links{
+    margin: -3em auto;
+    display: flex;
+    float: right;
+    vertical-align: middle;
+}
+
+ul.footer-links li a{
+    color: #9d9d9d;
+    font-size: 1em;
+}
+
